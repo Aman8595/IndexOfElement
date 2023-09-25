@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Find the Index of an Element in an Array
+
+        function FindIndex(arr,targetElement){
+        
+            for(let i=0;i<arr.length;i++){
+                if(arr[i]==targetElement){
+                    return i
+                }
+            }
+            return false
+        }
+    let y=FindIndex([12,15,17,16,20],24)
+        console.log(y)
+    </script>
+</body>
+</html>
